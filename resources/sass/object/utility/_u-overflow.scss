@@ -1,0 +1,11 @@
+.u-overflow{
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+         @include sm() {
+             -webkit-line-clamp: 2;
+         }
+}

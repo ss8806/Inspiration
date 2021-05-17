@@ -1,0 +1,47 @@
+.c-serch{
+       
+    &--group{    
+        float: right;
+        margin-bottom: 10px;
+        margin-right: 10px;
+            @include mq() {
+                float: left;
+                margin-left: 10px;
+        }
+            @include sm() {
+                float: left;
+                margin-left: 10px;
+            }
+    }
+
+    &__day{
+        width: 202px;
+        // @include mq() {
+        //     width: 200px;
+        // }
+        @include sm() {
+            width:  45%;
+        }
+    }
+
+    &__price{
+        width: 195px;
+        // @include mq() {
+        //     width: 200px;
+        // }
+        @include sm() {
+            width:  44%;
+        }
+    }
+
+    &__category{
+        width: 202px;
+        // @include mq() {
+        //     width: 203px;
+        // }
+        @include sm() {
+            width:  47%;
+        }
+    }
+
+}

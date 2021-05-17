@@ -1,0 +1,9 @@
+.l-main{
+    &__base{
+        width: 100%;
+        padding-top: 100px;
+    }
+    @include sm() {
+        padding-top: 60px;
+    }
+}

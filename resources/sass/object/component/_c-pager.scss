@@ -1,0 +1,18 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+
+.page-item{
+    text-align: center;
+    background-color: white;
+    margin-right: 5px;
+    
+}
+
+.page-link{
+}
+
+.pagination .page-item .page-link {
+    font-size: 24px;
+}

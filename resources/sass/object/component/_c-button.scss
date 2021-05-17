@@ -1,0 +1,25 @@
+.c-btn{
+    margin: 10px auto;
+    &__serch{
+        margin: 0px;
+    }
+    &__like{
+        margin: 10px;
+        border: none;
+        background-color: white;
+
+    }
+    &__fa--red{
+        color: red;
+    }
+    &__mypage{
+        display: block;
+        margin: 0px auto;
+        margin-bottom: 20px;
+    }
+    &__delete{
+        color: red;
+        border-color: red;
+    }
+}
+

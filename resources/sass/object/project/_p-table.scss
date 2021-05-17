@@ -1,0 +1,42 @@
+.p-table{
+    border: 2px solid #dee2e6;
+    border-collapse:collapse;
+    table-layout: fixed;
+
+        &--index{
+            width: 100%;
+        }
+
+        &--review{
+            margin: 0px auto;
+            min-width: 90%; 
+            max-width: 90%;          
+            word-break : break-all;
+        }
+
+        &--product{
+            margin: 10px auto;
+            min-width: 90%;
+            max-width: 90%;
+            word-break : break-all;
+        }
+
+        &__border{
+            border: 2px solid #dee2e6;   
+        }
+
+        &__left{
+            display: inline-block;
+            text-align-last: left;
+        }
+
+        &__ws{
+            white-space: nowrap;
+            width: 100px;
+            vertical-align: middle;
+                @include sm() {
+                    width: 50px;
+                }         
+        }
+}
+

@@ -1,0 +1,39 @@
+.c-input
+    {        
+    &__profile{
+    width: 30%;
+    margin-bottom: 10px;
+        @include mq() {
+            width: 60%;
+        }
+    }
+                
+    &__product{
+        width: 30%;
+        margin-bottom: 10px;
+            @include mq() {
+                width: 60%;
+        }
+    }
+
+    &__day{
+        width: 200px;
+        // @include mq() {
+        //     width: 200px;
+        // }
+        @include sm() {
+            width:  45%;
+        }
+    }
+
+    &__price{
+        width: 197px;
+        // @include mq() {
+        //     width: 200px;
+        // }
+        @include sm() {
+            width:  44%;
+        }
+    }
+}
+    

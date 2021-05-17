@@ -1,0 +1,20 @@
+.c-avatar { 
+    object-fit: cover; 
+    width: 35px; 
+    height: 35px;
+    vertical-align: sub;
+
+        &__mypage{
+            display: table;
+            margin: 0px auto;
+            object-fit: cover; 
+            width: 50%; 
+            height: 100%;
+        }
+
+        &__edit{
+            width: 30%; 
+            height: 100%;
+        }
+    
+}

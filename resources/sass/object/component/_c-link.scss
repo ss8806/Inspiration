@@ -1,0 +1,19 @@
+.c-link{
+    
+    &__show--all{
+        display: block;
+        text-align: center;
+    }
+
+    &__signup{
+        margin:30px;
+        font-size: 18px;
+        display: block;
+    }
+
+    &__login{
+        display: block;
+        margin: 10px;
+        font-size: 18px;
+    }
+}

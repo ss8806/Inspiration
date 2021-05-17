@@ -1,0 +1,58 @@
+.c-flexbox{
+
+    &--index{
+        margin: 10px;
+            @include mq() {
+                margin: 0px;
+            }
+    }
+
+    &--mypage{
+            @include mq() {
+                // margin-left: -10px;
+                // margin-right: -10px; 
+            }
+    }
+
+    &__flexcontainer{
+        display: flex;
+        flex-flow:row wrap;
+        min-height: 150px;
+        width: 100%;
+
+        &--index{
+           
+        }
+    }
+
+    &__flexitem{
+        box-sizing: border-box;
+        text-align: center;
+        background-color:white;
+        padding: 10px;
+        margin: 10px;
+
+        &--index{
+            width: calc(25% - 10px * 2);
+            min-height: 180px;
+            @include mq() {
+                margin: 5px;
+                width: calc(50% - 10px * 1);
+            }
+        }
+
+        // &--index:nth-of-type(2n){
+        //     background-color: yellow;
+        // }
+    
+
+        &--mypage{
+            width: calc(33.333% - 10px * 2);
+            min-height: 180px;
+            @include mq() {
+                margin: 5px;
+                width: calc(50% - 10px * 1);
+            }
+        }
+    }
+}

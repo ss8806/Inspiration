@@ -1,0 +1,39 @@
+.c-title{
+    &__top{
+        font-size: 70px;
+        font-family: "Amatic SC", cursive;
+        text-decoration: none;
+        color: #333;
+        margin-bottom: 70px;
+    }
+
+    &__main{
+        font-size: 50px;
+        font-family: "Amatic SC", cursive;
+        text-decoration: none;
+        color: #333;
+            @include mq() {
+                margin-bottom: 20px;
+            }
+            @include sm() {
+                font-size: 25px;
+                margin: auto;
+                margin-left: 5px;
+
+            }
+    }
+    &__index{
+        font-size: 24px;
+        text-align: center;
+        margin: 10px;
+    }
+    &__mypage{
+        font-size: 24px;
+        text-align: center;
+    }
+    &__logo{
+        width: 100%;
+        text-align: center;
+        margin-bottom: -50px;
+    }
+}

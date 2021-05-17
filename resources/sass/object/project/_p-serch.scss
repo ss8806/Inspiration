@@ -1,0 +1,10 @@
+.p-serch{
+    margin-bottom: 10px;
+    display: table;
+    margin: 0px auto;
+        @include sm() {
+            float: left;
+            margin-left: 5px;
+        }
+    
+}

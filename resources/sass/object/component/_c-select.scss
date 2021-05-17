@@ -1,0 +1,18 @@
+.c-select{
+    &__product{       
+        width: 30%;
+            @include mq() {
+            width: 60%;
+            }        
+    }
+
+    &__category{
+        width: 205px;
+        // @include mq() {
+        //     width: 203px;
+        // }
+        @include sm() {
+            width:  47%;
+        }
+    }
+}
